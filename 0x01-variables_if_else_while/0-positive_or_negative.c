@@ -7,6 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 int n;
@@ -25,7 +26,7 @@ else if (n < 0)
 {
 printf(" is negative\n");
 }
-Else
+else
 {
 printf(" is zero\n");
 }
