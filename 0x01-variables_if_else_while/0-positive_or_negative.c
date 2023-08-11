@@ -7,8 +7,8 @@ int main(void)
 int n;
 /* Seed the random number generator */
 srand(time(0));
-/* Generate a random number */
-n = rand() % (2 * RAND_MAX) - RAND_MAX;
+/* Generate a random number between -RAND_MAX and +RAND_MAX */
+n = rand() % (2 * RAND_MAX + 1) - RAND_MAX;
 /* Print the generated number */
 printf("%d ", n);
 /* Check if the number is positive, negative, or zero */
