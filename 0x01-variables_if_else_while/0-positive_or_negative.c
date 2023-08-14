@@ -7,30 +7,30 @@
 *
 * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-float n;
-/* Seed the random number generator */
+int n;
+
 srand(time(0));
-/* Generate a random number between -1000 and 1000 */
- n = rand() % (2 * RAND_MAX) - RAND_MAX;
-/* Print the generated number */
-printf("%f", n);
-/* Check if the number is positive, negative, or zero */
+n = rand() - RAND_MAX / 2;
+
+printf("%d is ", n);
+
 if (n > 0)
 {
-printf(" is positive\n");
+printf("positive");
 }
 else if (n < 0)
 {
-printf(" is negative\n");
+printf("negative");
 }
 else
-
 {
-printf(" is zero\n");
+printf("zero");
 }
- return (0);
+
+printf("\n");
+
+return (0);
 }
 
