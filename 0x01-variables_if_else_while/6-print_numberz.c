@@ -11,7 +11,7 @@ int i;
 
 for (i = 0; i <= 9; i++)
 {
-putchar(i + 48);  /* ASCII value of '0' is 48*\
+putchar(i + 48);  /* ASCII value of '0' is 48 */
 
 }
 
