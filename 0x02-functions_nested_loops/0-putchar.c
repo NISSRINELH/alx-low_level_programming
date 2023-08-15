@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include "_putchar.c"
+#include "main.h"
 
 
 /**
@@ -14,11 +15,12 @@ int _putchar(char c)
 return write(1, &c, 1);
 }
 
-/*
- *
- * main statmen 
- *return always 0
- */
+/**
+* main - Entry point of the program
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
  _putchar('_');
