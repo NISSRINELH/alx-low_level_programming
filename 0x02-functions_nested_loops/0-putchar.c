@@ -21,7 +21,6 @@ return write(1, &c, 1);
 int _putchar(char c);
 
 #endif /* MAIN_H */
-
 /**
 * main - Entry point of the program
 *
